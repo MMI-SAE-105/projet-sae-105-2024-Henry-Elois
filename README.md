@@ -3,8 +3,9 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Henry
+- PRÉNOM : Eloïs
+- GROUPE : TDB1
+- URL du site : 
+- URL FIGMA : https://www.figma.com/design/q90LxkHriE8wMHlTulLN1C/Projet-individuel-elois-henry-tdB1?node-id=0-1&t=pedCCJOY8fBuNKGe-1
+
