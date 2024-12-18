@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
     <header>
-        <img src="/assets/icones/logo.svg" alt="logo">
-        <img src="/assets/icones/iconemenu.svg" alt="icone menu">
-        <a href="/en"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
+        <div class="header">
+        <img src="/assets/icones/logo.svg" alt="logo" class="header-logo" >
+        <a href="/en"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" class="header-lang">
                 <mask id="circleFlagsGb0">
                     <circle cx="256" cy="256" r="256" fill="#fff" />
                 </mask>
@@ -24,6 +25,8 @@
                 </g>
             </svg>
             </a>
+            <img src="/assets/icones/iconemenu.svg" alt="icone menu" class="header-icone">
+            </div>
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
                 <ul class="menu__list list-unstyled">
                     <li class="menu__item">
@@ -127,7 +130,5 @@
 
             </nav>
         </footer>
-        
-
 </body>
 </html>

@@ -1,0 +1,27 @@
+.hero-accueil {
+    position: relative;
+    width: 100%;
+}
+
+.hero-accueil img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-overlay {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+
+}
+
+.hero-overlay h1 {
+    font-size: 1.5rem;
+    color: #F9F0D8;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: right;
+}

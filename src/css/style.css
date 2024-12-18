@@ -30,6 +30,9 @@ Les composant d'interface (Components)
 
 /*components*/
 @import "components/button.css";
+@import "components/cards.css";
+@import "components/hero.css";
+
 
 
 
