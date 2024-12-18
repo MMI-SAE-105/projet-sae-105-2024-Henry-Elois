@@ -2,14 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    right: 0;
     padding: 10px 20px;
     background-color: #000000;
     height: 60px;
 }
 
 .header-logo {
-    max-width: 80px;
+    max-width: 100px;
     margin-top: 1px;
     position: relative;
     z-index: 20;
