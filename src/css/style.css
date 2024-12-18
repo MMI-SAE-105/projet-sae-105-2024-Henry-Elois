@@ -10,7 +10,7 @@ Les composant d'interface (Components)
 @import url();
 
 /*vendors*/
-
+@import "vendors/normalize.css";
 /*Utils*/
 
 
