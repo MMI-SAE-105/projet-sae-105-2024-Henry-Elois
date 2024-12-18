@@ -1,0 +1,80 @@
+footer {
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img[alt="logo"] {
+    width: 60px; 
+    margin-bottom: 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffd700; 
+}
+.footer-menu,
+.footer-nouscontacter {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li,
+.footer-nouscontacter li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.footer-menu a,
+.footer-nouscontacter a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+
+.footer-icones {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.footer-icones img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+footer p a {
+    color: antiquewhite;
+    text-decoration: underline;
+    transition: text-decoration 0.3s;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}

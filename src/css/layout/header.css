@@ -1,23 +1,30 @@
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     padding: 10px 20px;
     background-color: #000000;
-    color: #000000;
     height: 60px;
-    gap: 100px;
 }
-.header-logo{
-    max-width: 72px;
+
+.header-logo {
+    max-width: 80px;
     margin-top: 1px;
     position: relative;
     z-index: 20;
-
 }
-.header-icone{
-    max-width: 32px;
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+
+.header-icone {
+    max-width: 40px;
     margin-top: 1px;
+    margin-left: 10px; 
     z-index: 20;
 }
 

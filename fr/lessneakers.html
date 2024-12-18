@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les sneakers</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="/assets/icones/logo.svg" alt="logo">
-        <img src="/assets/icones/iconemenu.svg" alt="icone menu">
+        <div class="header">
+        <a href="index.html"><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"></a>
+        <img src="/assets/icones/iconemenu.svg" alt="icone menu" class="header-icone">
         <a href="/en"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
                 <mask id="circleFlagsGb0">
                     <circle cx="256" cy="256" r="256" fill="#fff" />
@@ -25,6 +27,7 @@
                         d="M0 0v45l131 131h45zm208 0v208H0v96h208v208h96V304h208v-96H304V0zm259 0L336 131v45L512 0zM176 336L0 512h45l131-131zm160 0l176 176v-45L381 336z" />
                 </g>
             </svg>
+        </div>
         </a>
         </g>
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
@@ -60,10 +63,12 @@
         <h2 class="hero"> Les sneakers. Des origines aux modèles futuristes, les baskets racontent l'histoire d'une évolution constante entre
         passé et avenir.</h2>
         <p class="intro-lien">par <a href="apropos.html">Eloïs Henry</a><br>publié le 23 octobre 2024</p>
-        <img src="/assets/img/pagesneakers/photo1.webp" alt="sneakers">
-        <p>Salon de la sneakers à Clermont-Ferand</p>
-        <h2>Le Passé : De la Fonction à la Mode</h2>
-        <p>Mais à quand remonte la première paire de basket ? faisons un retour dans le passé…
+        <figure>
+            <img src="/assets/img/pagesneakers/photo1.webp" alt="sneakers">
+            <figcaption>Salon de la sneakers à Clermont-Ferand</figcaption>
+        </figure>
+                <h2>Le Passé : De la Fonction à la Mode</h2>
+        <p class="main-texte">Mais à quand remonte la première paire de basket ? faisons un retour dans le passé…
         A l'origine, ce n'était que de simple accessoires pratiques. Les premières converses all stars, conçues en <strong>1917</strong>, étaient
         en effet dédiée aux sportifs comme les coureurs et les basketteurs grâce à leur semelle en caoutchouc, leur apportant
         légèreté, confort et flexibilité.<br>
@@ -75,10 +80,13 @@
         objets à la base fonctionnels sont alors vite devenus des objets de désir, des pièces de collection mais aussi des
         objets ostentatoires.</p>
 
-        <img src="/assets/img/pagesneakers/photo2.webp" alt="sneakers">
-        <p><em>Michael Jordan jouant avec des jordans </em></p>
-        <h2> Le présent</h2>
-        <p>Aujourd'hui, chaque paire de sneakers est minutieusement réfléchie. Elles reflètent les tendances, les avancées
+            <figure>
+                <img src="/assets/img/pagesneakers/photo2.webp" alt="sneakers">
+            <figcaption>Michael Jordan jouant avec des jordans </figcaption>
+        </figure>
+        
+        <h2 class="main-titre"> Le présent</h2>
+        <p class="main-texte">Aujourd'hui, chaque paire de sneakers est minutieusement réfléchie. Elles reflètent les tendances, les avancées
         technologiques et les préoccupations environnementales. Les marques innovent constamment en intégrant des <strong>matériaux
         recyclés </strong> dans leurs modèles comme pour les primegreen ou encore les nike spae hippie qui utilisent des déchets
         plastiques récupérés.<br>
@@ -86,15 +94,16 @@
         laçage automatique ou de connexion à des applications mobiles. Plus seulement produit de consommation, les sneakers sont
         aujourd'hui des objets connnectés innovants.</p>
         <img src="/assets/img/pagesneakers/photo3.webp" alt="sneakers">
-        <h2>Le Futur : Les Sneakers, Pièces de Musée ou Objets du Quotidien ?</h2>
-        <p>On se demande alors “mais que va devenir la sneakers dans le futur ?” des design plus simple ? des avancées
+        <h2 class="main-titre">Le Futur : Les Sneakers, Pièces de Musée ou Objets du Quotidien ?</h2>
+        <p class="main-texte">On se demande alors “mais que va devenir la sneakers dans le futur ?” des design plus simple ? des avancées
         technologiques ? des objets respectant la mode éthique où la durabilité est le plus important ? Champignons, cuir
         végétal, impression 3D, des productions diversifiées mais qui n'apporte pas de réel changement aux consommateurs. Il y a
         de cela quelques années, des réalisateurs et designeurs se sont eux aussi posés la question et en sont arrivés aux nike
         mag, retrouvées dans le film <a href="film.html"> Retour vers le futur.</a></p>
         
         <button class="btn">Retour vers le futur</button>
-        <p>Vous vous demandez ce que deviendront les sneakers ? Nous avons la réponse. Des technologies innovantes, des matériaux
+
+        <p class="main-texte">Vous vous demandez ce que deviendront les sneakers ? Nous avons la réponse. Des technologies innovantes, des matériaux
         eco-responsables, des fonctionnalité toutes nouvelles. Oui, c'est la sneakers du futur.
         
         Un laçage automatique et une chaussure s'adaptant à la taille, un compteur de pas intégré, un système de réchauffement
@@ -102,7 +111,7 @@
         pour une technologie anti chute.</p>
 
         <img src="/assets/img/pagesneakers/photo4.webp" alt="sneakers"><p> <em>Image générée par une intelligence artificielle</em></p>
-        <p>Cette paire de sneakers serait bien plus qu'un accessoire de mode ou d'utilité, ce serait un investissement pour une
+        <p class="main-texte">Cette paire de sneakers serait bien plus qu'un accessoire de mode ou d'utilité, ce serait un investissement pour une
         vie. En effet, la chaussure, avec sa technologie réparatrice permetrait de ne plus dépenser dans des chaussures qui ne
         tiennent que très peu de temps. Cette paire de sneakers, au départ en stock limité pourrait alors très vite côter et
         devenir un objet de collection à part entière.<br>
@@ -113,7 +122,7 @@
 
         <button class="btn">Voir "l'art de la victoire"</button>
 
-        <p>Le monde des sneakers est en évolution constante, se réinventant à chaque occasions et cherchant à toujours suivre la
+        <p class="main-texte">Le monde des sneakers est en évolution constante, se réinventant à chaque occasions et cherchant à toujours suivre la
         demande. Petit à petit les sneakers se sont imposées dans notre vie de tous les jours et sont devenus des objets du
         quotidiens que la majorité de la population possède.<br>
         Nous pouvons alors retracer une certaine évolutions des sneakers et arriver à cela :</p>
