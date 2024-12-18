@@ -1,23 +1,15 @@
 footer {
+    width: 101%;
     background-color: #000; /* Fond noir */
-    color: #fff; /* Texte blanc */
+    color: #F9F0D8;
     padding: 30px 20px;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 footer img[alt="logo"] {
-    width: 60px; 
-    margin-bottom: 20px;
-}
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1200px;
+    width: 80px; 
     margin-bottom: 20px;
 }
 
@@ -43,24 +35,26 @@ footer img[alt="logo"] {
 
 .footer-menu a,
 .footer-nouscontacter a {
-    color: #fff;
+    color: #F9F0D8;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-
+.footer-nouscontacter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer-infos{
+    display: flex;
+    flex-direction: column;
+}
 
 .footer-icones {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin-top: 10px;
-}
-
-.footer-icones img {
-    width: 25px;
-    height: 25px;
-    transition: transform 0.3s ease-in-out;
 }
 
 footer p {

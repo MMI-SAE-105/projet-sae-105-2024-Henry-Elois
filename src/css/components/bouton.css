@@ -1,0 +1,31 @@
+.btn {
+    background-color: #a62a2a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+
+}
+.btn-fin{
+        background-color: #081D4B;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+
+}
+

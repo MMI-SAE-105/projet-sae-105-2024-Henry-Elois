@@ -29,7 +29,7 @@ Les composant d'interface (Components)
 @import "utils/variables.css";
 
 /*components*/
-@import "components/button.css";
+@import "components/bouton.css";
 @import "components/cards.css";
 @import "components/hero.css";
 
