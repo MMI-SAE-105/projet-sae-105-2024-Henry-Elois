@@ -24,6 +24,7 @@ Les composant d'interface (Components)
 
 @import "layout/footer.css";
 @import "layout/header.css";
+@import "layout/menu.css";
 
 /*utils*/
 @import "utils/variables.css";

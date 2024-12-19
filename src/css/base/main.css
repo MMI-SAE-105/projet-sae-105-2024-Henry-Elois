@@ -1,5 +1,4 @@
 body {
     background-color: var(--beige-fond, #F9F0D8);
-    margin-right: 0;*
-    overflow-x: hidden;
+    margin-right: 0;
 }
