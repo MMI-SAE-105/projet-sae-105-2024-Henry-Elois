@@ -23,10 +23,8 @@
 .menu__list {
     list-style: none;
     margin-left: 20px;
-    padding: 0;
+    padding: 10px;
     padding-bottom: 52px;
-    font-size: 30px;
-    font-style: normal;
 }
 
 .menu__link {
@@ -36,12 +34,19 @@
     font-weight: 30px;
     font-size: 30px;
     font-style: normal;
+    font-family: "Michroma", serif;
+    line-height: 85px;
 }
-
 .menu-btn {
     position: relative;
     display: flex;
     background-color: transparent;
     border: none;
+}
+
+.menu img {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 29px;
 }
 
