@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les sneakers</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
 </head>
-
 <body>
     <header>
         <div class="header">
-        <a href="index.html"><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"></a>
-        <img src="/assets/icones/iconemenu.svg" alt="icone menu" class="header-icone">
-        <a href="/en"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
-                <mask id="circleFlagsGb0">
-                    <circle cx="256" cy="256" r="256" fill="#fff" />
-                </mask>
-                <g mask="url(#circleFlagsGb0)">
-                    <path fill="#eee"
-                        d="m0 0l8 22l-8 23v23l32 54l-32 54v32l32 48l-32 48v32l32 54l-32 54v68l22-8l23 8h23l54-32l54 32h32l48-32l48 32h32l54-32l54 32h68l-8-22l8-23v-23l-32-54l32-54v-32l-32-48l32-48v-32l-32-54l32-54V0l-22 8l-23-8h-23l-54 32l-54-32h-32l-48 32l-48-32h-32l-54 32L68 0z" />
-                    <path fill="#0052b4"
-                        d="M336 0v108L444 0Zm176 68L404 176h108zM0 176h108L0 68ZM68 0l108 108V0Zm108 512V404L68 512ZM0 444l108-108H0Zm512-108H404l108 108Zm-68 176L336 404v108z" />
-                    <path fill="#d80027"
-                        d="M0 0v45l131 131h45zm208 0v208H0v96h208v208h96V304h208v-96H304V0zm259 0L336 131v45L512 0zM176 336L0 512h45l131-131zm160 0l176 176v-45L381 336z" />
-                </g>
-            </svg>
-        </div>
-        </a>
-        </g>
+            <a href="index.html"><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"></a>
+            <div class="header__right">
+                <a href="/en">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" class="header-lang">
+                        <mask id="circleFlagsGb0">
+                            <circle cx="256" cy="256" r="256" fill="#fff" />
+                        </mask>
+                        <g mask="url(#circleFlagsGb0)">
+                            <path fill="#eee" d="m0 0l8 22l-8 23v23l32 54l-32 54v32l32 48l-32 48v32l32 54l-32 54v68l22-8l23 8h23l54-32l54 32h32l48-32l48 32h32l54-32l54 32h68l-8-22l8-23v-23l-32-54l32-54v-32l-32-48l32-48v-32l-32-54l32-54V0l-22 8l-23-8h-23l-54 32l-54-32h-32l-48 32l-48-32h-32l-54 32L68 0z" />
+                            <path fill="#0052b4" d="M336 0v108L444 0Zm176 68L404 176h108zM0 176h108L0 68ZM68 0l108 108V0Zm108 512V404L68 512ZM0 444l108-108H0Zm512-108H404l108 108Zm-68 176L336 404v108z" />
+                            <path fill="#d80027" d="M0 0v45l131 131h45zm208 0v208H0v96h208v208h96V304h208v-96H304V0zm259 0L336 131v45L512 0zM176 336L0 512h45l131-131zm160 0l176 176v-45L381 336z" />
+                        </g>
+                    </svg>
+                </a>
+                <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                    <img class="menu-btn__img" src="/assets/icones/iconemenu.svg" alt="icone menu">
+                </button>
+            </div>
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
@@ -52,14 +50,15 @@
                 </li>
             </ul>
         </nav>
-        <div class="hero">
+    </div>
+    </header>
+    <main>
+        <div class="hero-accueil">
             <img src="/assets/img/pagesneakers/imagehero.webp" alt="Sneakers">
             <div class="hero-overlay">
                 <h1>Les sneakers</h1>
             </div>
         </div>
-    </header>
-    <main>
         <h2 class="hero"> Les sneakers. Des origines aux modèles futuristes, les baskets racontent l'histoire d'une évolution constante entre
         passé et avenir.</h2>
         <p class="intro-lien">par <a href="apropos.html">Eloïs Henry</a><br>publié le 23 octobre 2024</p>
@@ -131,33 +130,43 @@
 
     </main>
 
-        <footer>
+    <footer>
     <img src="/assets/icones/logo.svg" alt="logo">
     <nav>
-        <h3 class="">Menu</h3>
-        <ul class="footer-menu">
-            <li><a href="/fr/contact.html">Contact</a></li>
-            <li><a href="/fr/plusdinfo.html">Plus d'infos</a></li>
-            <li><a href="/fr/apropos.html">A propos</a></li>
-        </ul>
-        <ul class="footer-nouscontacter">
-            <h3>Nous contacter</h3>
-            <li>Henry Eloïs</li>
-            <li>03 81 99 47 34</li>
-            <li><a href="mailto:But-mmi-montbeliard@univ-fcomte.fr">But-mmi-montbeliard@univ-fcomte.fr</a></li>
-            <li><a href="mailto:elois.henry@edu.univ-fcomte.fr">elois.henry@edu.univ-fcomte.fr</a></li>
-            <li> 4 place Lucien Tharradin, 25200 Montbéliard</li>
-        </ul>
-        <h3>Nous suivre</h3>
-        <div class="footer-icones">
-            <a href=""><img src="/assets/icones/facebook.svg" alt="facebook"></a>
-            <a href=""><img src="/assets/icones/twitter.svg" alt="twitter"></a>
-            <a href=""><img src="/assets/icones/instagram.svg" alt="instagram"></a>
-            <a href=""><img src="/assets/icones/tiktok.svg" alt="titok"></a>
+        <div class="footer-infos">
+                <div class="footer-menu">
+                    <h3 class="">Menu</h3>
+                    <ul class="footer-list-menu">
+                        <li><a href="/fr/contact.html">Contact</a></li>
+                        <li><a href="/fr/plusdinfo.html">Plus d'infos</a></li>
+                        <li><a href="/fr/apropos.html">A propos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list-nouscontacter">
+                    <h3>Nous contacter</h3>
+                    <ul class="footer-list">
+                        <li>Henry Eloïs</li>
+                        <li>03 81 99 47 34</li>
+                        <li><a href="mailto:But-mmi-montbeliard@univ-fcomte.fr">But-mmi-montbeliard@univ-fcomte.fr</a></li>
+                        <li><a href="mailto:elois.henry@edu.univ-fcomte.fr">elois.henry@edu.univ-fcomte.fr</a></li>
+                        <li>4 place Lucien Tharradin, 25200 Montbéliard</li>
+
+                    </ul>
+                </div>
         </div>
-        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département<a
+        <div class="footer-noussuivre">
+            <h3>Nous suivre</h3>
+            <div class="footer-icones">
+                <a href=""><img src="/assets/icones/facebook.svg" alt="facebook"></a>
+                <a href=""><img src="/assets/icones/twitter.svg" alt="twitter"></a>
+                <a href=""><img src="/assets/icones/instagram.svg" alt="instagram"></a>
+                <a href=""><img src="/assets/icones/tiktok.svg" alt="titok"></a>
+            </div>
+
+            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département<a
                 href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"> MMI de
                 montbéliard</a></p>
+        </div>
     </nav>
     </footer>
 </body>
