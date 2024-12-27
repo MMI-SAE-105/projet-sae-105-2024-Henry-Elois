@@ -11,6 +11,9 @@
 .menu[aria-hidden="false"] {
     visibility: visible;
     opacity: 1;
+    z-index: 1000;
+    background-color: #1D305B;
+
 }
 
 .noscroll {
@@ -18,21 +21,21 @@
 }
 
 .menu__list {
-    display: flex;
-    gap: 20px;
     list-style: none;
     margin-left: 20px;
     padding: 0;
-    padding-top: 10rem;
+    padding-bottom: 52px;
     font-size: 30px;
     font-style: normal;
 }
 
 .menu__link {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     transition: color 0.3s ease;
-
+    font-weight: 30px;
+    font-size: 30px;
+    font-style: normal;
 }
 
 .menu-btn {
@@ -42,8 +45,3 @@
     border: none;
 }
 
-.menu[aria-hidden="false"] {
-    visibility: visible;
-    transform: translateX(0);
-    opacity: 1;
-}
