@@ -11,6 +11,7 @@
     padding: 20px;
     color: #fff; 
     text-align: left; 
+    margin-bottom: 40px;
 }
 
 .card h2 {
@@ -29,6 +30,7 @@
 
 .card .btn {
     display: inline-block; 
+    margin-top: 40px;
     padding: 10px 20px; 
     font-size: 1rem; 
     color: #A82A29; 
@@ -39,10 +41,6 @@
     cursor: pointer; 
     transition: background-color 0.3s ease; 
     float: right;
-}
-
-.card .btn:hover {
-    background-color: #a6001f; 
 }
 
 .card::before {

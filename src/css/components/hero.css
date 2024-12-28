@@ -7,6 +7,7 @@
     width: 100%;
     height: auto;
     display: block;
+
 }
 
 .hero-overlay {
@@ -18,11 +19,10 @@
     width: 80%;
     align-items: end;
     right: 0;
-
 }
 
 .hero-overlay h1 {
-    font-size: 1.5rem;
+    font-size: 32px;
     color: #F9F0D8;
     text-transform: uppercase;
     margin: 0;
