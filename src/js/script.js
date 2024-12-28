@@ -15,3 +15,4 @@ if (toggle && nav) {
 document.querySelector(".menu-back").addEventListener("click", function () {
   document.getElementById("mainNav").setAttribute("aria-hidden", "true");
 });
+
