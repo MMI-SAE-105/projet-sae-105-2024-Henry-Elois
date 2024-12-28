@@ -11,3 +11,7 @@ if (toggle && nav) {
     page.classList.toggle("noscroll", isClosed);
   });
 }
+
+document.querySelector(".menu-back").addEventListener("click", function () {
+  document.getElementById("mainNav").setAttribute("aria-hidden", "true");
+});
