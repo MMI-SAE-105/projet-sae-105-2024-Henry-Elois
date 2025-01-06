@@ -36,6 +36,9 @@ Les composant d'interface (Components)
 @import "components/bouton.css";
 @import "components/cards.css";
 @import "components/hero.css";
+@import "components/frise.css";
+@import "components/carrousel.css";
+@import "components/icones.css";
 
 
 
