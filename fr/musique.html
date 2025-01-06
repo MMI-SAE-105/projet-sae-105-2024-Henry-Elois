@@ -1,118 +1,196 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accueil</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header">
-            <a href="index.html"><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"></a>
-            <div class="header__right">
-                <a href="/en/index.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" class="header-lang">
-                        <mask id="circleFlagsGb0">
-                            <circle cx="256" cy="256" r="256" fill="#fff" />
-                        </mask>
-                        <g mask="url(#circleFlagsGb0)">
-                            <path fill="#eee" d="m0 0l8 22l-8 23v23l32 54l-32 54v32l32 48l-32 48v32l32 54l-32 54v68l22-8l23 8h23l54-32l54 32h32l48-32l48 32h32l54-32l54 32h68l-8-22l8-23v-23l-32-54l32-54v-32l-32-48l32-48v-32l-32-54l32-54V0l-22 8l-23-8h-23l-54 32l-54-32h-32l-48 32l-48-32h-32l-54 32L68 0z" />
-                            <path fill="#0052b4" d="M336 0v108L444 0Zm176 68L404 176h108zM0 176h108L0 68ZM68 0l108 108V0Zm108 512V404L68 512ZM0 444l108-108H0Zm512-108H404l108 108Zm-68 176L336 404v108z" />
-                            <path fill="#d80027" d="M0 0v45l131 131h45zm208 0v208H0v96h208v208h96V304h208v-96H304V0zm259 0L336 131v45L512 0zM176 336L0 512h45l131-131zm160 0l176 176v-45L381 336z" />
-                        </g>
-                    </svg>
-                </a>
-                <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-                    <img class="menu-btn__img" src="/assets/icones/iconemenu.svg" alt="icone menu">
-                </button>
-            </div>
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-        <div class="menu_top">
-            <a class="menu-logo" href="index.html"><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"></a>
-            <button class="menu-back" aria-label="fermer le menu"><img src="/assets/icones/cross2.svg" alt="cross"></button>
+      <div class="header">
+        <a href="index.html"
+          ><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"
+        /></a>
+        <div class="header__right">
+          <a href="/en/index.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 512 512"
+              class="header-lang"
+            >
+              <mask id="circleFlagsGb0">
+                <circle cx="256" cy="256" r="256" fill="#fff" />
+              </mask>
+              <g mask="url(#circleFlagsGb0)">
+                <path
+                  fill="#eee"
+                  d="m0 0l8 22l-8 23v23l32 54l-32 54v32l32 48l-32 48v32l32 54l-32 54v68l22-8l23 8h23l54-32l54 32h32l48-32l48 32h32l54-32l54 32h68l-8-22l8-23v-23l-32-54l32-54v-32l-32-48l32-48v-32l-32-54l32-54V0l-22 8l-23-8h-23l-54 32l-54-32h-32l-48 32l-48-32h-32l-54 32L68 0z"
+                />
+                <path
+                  fill="#0052b4"
+                  d="M336 0v108L444 0Zm176 68L404 176h108zM0 176h108L0 68ZM68 0l108 108V0Zm108 512V404L68 512ZM0 444l108-108H0Zm512-108H404l108 108Zm-68 176L336 404v108z"
+                />
+                <path
+                  fill="#d80027"
+                  d="M0 0v45l131 131h45zm208 0v208H0v96h208v208h96V304h208v-96H304V0zm259 0L336 131v45L512 0zM176 336L0 512h45l131-131zm160 0l176 176v-45L381 336z"
+                />
+              </g>
+            </svg>
+          </a>
+          <button
+            class="menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <img
+              class="menu-btn__img"
+              src="/assets/icones/iconemenu.svg"
+              alt="icone menu"
+            />
+          </button>
         </div>
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item">
-                    <a class="menu__link" href="lessneakers.html">Les sneakers</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="film.html">Retour vers le futur</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="realisateur.html">Robert Zemeckis</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="musique.html">Sicko mode</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="livre.html">L'art de la victoire</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="plusdinfo.html">Plus d'infos</a>
-                </li>
-            </ul>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+          <div class="menu_top">
+            <a class="menu-logo" href="index.html"
+              ><img
+                src="/assets/icones/logo.svg"
+                alt="logo"
+                class="header-logo"
+            /></a>
+            <button class="menu-back" aria-label="fermer le menu">
+              <img src="/assets/icones/cross2.svg" alt="cross" />
+            </button>
+          </div>
+          <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+              <a class="menu__link" href="lessneakers.html">Les sneakers</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="film.html">Retour vers le futur</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="realisateur.html">Robert Zemeckis</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="musique.html">Sicko mode</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="livre.html">L'art de la victoire</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="plusdinfo.html">Plus d'infos</a>
+            </li>
+          </ul>
         </nav>
-    </div>
+      </div>
     </header>
 
     <main>
-        <div class="hero-accueil">
+      <div class="hero-accueil">
         <img src="/assets/img/musique/phtohero.webp" alt="Sneakers" />
         <div class="hero-overlay">
-          <h1>Sicko mode</h1>
+          <h1>Sicko Mode</h1>
         </div>
-        <h2 class="intro-text">Travis Scott, avec Sicko Mode, repousse les limites de la musique et de la mode, faisant
-            des sneakers un symbole futuriste et incontournable du streetwear.</h2>
-        <p class="intro-lien">par <a href="apropos.html">Eloïs Henry</a><br>publié le 12 décembre 2024</p>
-        <img src="/assets/img/musique/photo1.webp" alt="Travis Scott">
+        <h2 class="intro-text">
+          Travis Scott, avec Sicko Mode, repousse les limites de la musique et
+          de la mode, faisant des sneakers un symbole futuriste et
+          incontournable du streetwear.
+        </h2>
+        <p class="intro-lien">
+          par <a href="apropos.html">Eloïs Henry</a><br />publié le 12 décembre
+          2024
+        </p>
 
-        <p class="main-legende">Première de l'album Astroworld</p>
+        <figure>
+          <img src="/assets/img/musique/photo1.webp" alt="Travis Scott" />
+          <figcaption>Première de l'album Astroworld</figcaption>
+        </figure>
 
-        <h2 class="main-titre">Travis Scott et les sneakers : une influence majeure</h2>
+        <h2 class="main-titre">
+          Travis Scott et les sneakers : une influence majeure
+        </h2>
+        <p class="texte">
+          Travis Scott est bien plus qu'un rappeur. En collaborant avec Nike, il
+          impose une icône de la mode, en particulier dans l'univers des
+          sneakers. Des modèles comme les Air Jordan 1 et les Air Force 1 qu'il
+          a réinventés avec sa touche unique sont devenus des références
+          incontournables.
+        </p>
 
-        <p class="texte">Travis Scott est bien plus qu'un rappeur. En collaborant avec Nike, il impose une icône de la
-            mode, en particulier dans l'univers des sneakers. Des modèles comme les Air Jordan 1 et les Air Force 1
-            qu'il a reénventés avec sa touche unique sont devenus des références incontournables.</p>
+        <figure>
+          <img
+            src="/assets/img/musique/photo2.webp"
+            alt="Sneakers collaboration Travis Scott"
+          />
+          <figcaption>
+            Différentes sneakers de la collaboration Nike x Travis Scott
+          </figcaption>
+        </figure>
 
-        <img src="/assets/img/musique/photo2.webp" alt="Sneakers collaboration Travis Scott">
-        <p class="main-legende">Différentes sneakers de la collaboration Nike x Travis Scott</p>
+        <h2 class="main-titre">
+          Sicko Mode : Un clip qui reflète l'avenir de la mode
+        </h2>
+        <p class="texte">
+          Le clip de Sicko Mode ne passe pas inaperçu. Visuellement, il pousse
+          les frontières de la créativité en offrant futurisme, décors
+          psychédéliques et des effets de montage à la digital et à la réalité.
+          Travis Scott a imposé son style dans le monde de la mode avec des
+          sneakers qui ne cessent d'influencer le design contemporain.
+        </p>
 
-        <h2 class="main-titre">Sicko Mode : Un clip qui reflète l'avenir de la mode</h2>
-
-        <p class="texte">Le clip de Sicko Mode ne passe pas inaperçu. Visuellement, il pousse les frontières de la
-            créativité en offrant futurisme, décors psychédéliques et des effets de montage à la digital et à la
-            réalité. Travis Scott a imposé son style dans le monde de la mode avec des sneakers qui ne cessent
-            d'influencer le design contemporain.</p>
-        <blockquote class="main-exergue">"Sicko Mode n'est pas seulement un hit musical, c'est une vision futuriste qui redéfinit
-            la place des sneakers dans la culture et la mode."</blockquote>
+        <blockquote class="main-exergue">
+          "Sicko Mode n'est pas seulement un hit musical, c'est une vision
+          futuriste qui redéfinit la place des sneakers dans la culture et la
+          mode."
+        </blockquote>
 
         <h2 class="main-titre">Les sneakers, entre héritage et futurisme</h2>
-        <p class="texte">Les collaborations entre Travis Scott et Nike ne se limitent pas à la simple création : elles
-            fusionnent l'art, la technologie et le design. Ces sneakers, symbole d'innovation, marquent un tournant
-            historique dans la mode urbaine.</p>
-            <button class="btn">Les sneakers</button>
-            <hr class="media-line">
+        <p class="texte">
+          Les collaborations entre Travis Scott et Nike ne se limitent pas à la
+          simple création : elles fusionnent l'art, la technologie et le design.
+          Ces sneakers, symbole d'innovation, marquent un tournant historique
+          dans la mode urbaine.
+        </p>
 
+        <div>
+          <a class="btn" href="/fr/lessneakers.html">Les sneakers</a>
+        </div>
+
+        <hr class="media-line" />
 
         <div class="media-content">
-            <div class="media-item">
-          <img src="/assets/img/musique/photo2.webp" alt="Sneaker 1">
-            </div>
-            <div class="media-item">
-          <img src="/assets/img/musique/photo3.webp" alt="Sneaker 2">
-            </div>
-            <div class="media-item">
-          <img src="/assets/img/musique/photo4.webp" alt="Sneaker 3">
-            </div>
+          <div class="media-item">
+            <img src="/assets/img/musique/photo2.webp" alt="Sneaker 1" />
+          </div>
+          <div class="media-item">
+            <img src="/assets/img/musique/photo3.webp" alt="Sneaker 2" />
+          </div>
+          <div class="media-item">
+            <img src="/assets/img/musique/photo4.webp" alt="Sneaker 3" />
+          </div>
         </div>
-        <p class="main-texte">Sicko Mode a marqué la culture musicale, mais aussi celle des sneakers. Grâce à Travis Scott et à son influence dans le
-        streetwear, les sneakers continuent d'évoluer vers des modèles futuristes, mêlant innovation, technologie et art. Ce
-        morceau incarne parfaitement cette vision du futur, où les baskets deviennent plus qu'un simple accessoire : elles sont
-        le reflet d'une culture en constante mutation, à la croisée de la mode et de la technologie.</p>
-        <button class="btn-fin">Lire "L'art de la victoire"</button>
+
+        <p class="main-texte">
+          Sicko Mode a marqué la culture musicale, mais aussi celle des
+          sneakers. Grâce à Travis Scott et à son influence dans le streetwear,
+          les sneakers continuent d'évoluer vers des modèles futuristes, mêlant
+          innovation, technologie et art. Ce morceau incarne parfaitement cette
+          vision du futur, où les baskets deviennent plus qu'un simple
+          accessoire : elles sont le reflet d'une culture en constante mutation,
+          à la croisée de la mode et de la technologie.
+        </p>
+
+        <div>
+          <a class="btn-fin" href="/fr/livre.html"
+            >Lire "L'art de la victoire"</a
+          >
         </div>
+      </div>
     </main>
 
     <footer>
@@ -162,14 +240,14 @@
           </div>
         </div>
         <p>
-          Projet réalisé dans le cadre d'un exercice pédagogique au
-          département
-        <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+          Projet réalisé dans le cadre d'un exercice pédagogique au département
+          <a
+            href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
+          >
             MMI de montbéliard
-        </a>
+          </a>
         </p>
       </nav>
     </footer>
-</body>
-
+  </body>
 </html>
