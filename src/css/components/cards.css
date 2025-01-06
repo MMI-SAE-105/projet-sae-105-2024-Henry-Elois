@@ -1,65 +1,97 @@
-
 .card {
-    position: relative; 
-    background-size: cover; 
-    background-position: center;
-    border-radius: 15px; 
-    overflow: hidden; 
-    width: 353.887px;
-    height: 306px;
-    margin: 20px auto; 
-    padding: 20px;
-    color: #fff; 
-    text-align: left; 
-    margin-bottom: 40px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 353.887px;
+  height: 306px;
+  margin: 20px auto;
+  padding: 20px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 40px;
+  flex-shrink: 0;
 }
 
 .card h2 {
-    font-family: antonio;
-    font-size: 32px; 
-    margin-bottom: 30px; 
+  font-family: antonio;
+  font-size: 32px;
+  margin-bottom: 30px;
 }
 
 .card p {
-    font-size: 16px;
-    line-height: 1.6; 
-    color: #fff;
-    margin-bottom: 20px; 
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 .card .btn {
-    display: inline-block; 
-    margin-top: 40px;
-    padding: 10px 20px; 
-    font-size: 1rem; 
-    color: #A82A29; 
-    background-color: #F9F0D8; 
-    border: none; 
-    border-radius: 20px; 
-    text-decoration: none;
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
-    float: right;
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #a82a29;
+  background-color: #f9f0d8;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right;
 }
 .card * {
-    position: relative; 
-    z-index: 2; 
+  position: relative;
+  z-index: 2;
 }
 .card1 {
-    background-image: url('/assets/img/photoaccueil1.webp');
+  background-image: url("/assets/img/photoaccueil1.webp");
 }
 
 .card2 {
-    background-image: url('/assets/img/photoaccueil2.webp');
+  background-image: url("/assets/img/photoaccueil2.webp");
 }
 
 .card3 {
-    background-image: url('/assets/img/photoaccueil3.webp');
+  background-image: url("/assets/img/photoaccueil3.webp");
 }
 .card4 {
-    background-image: url('/assets/img/photoaccueil4.webp');
+  background-image: url("/assets/img/photoaccueil4.webp");
 }
 .card5 {
-    background-image: url('/assets/img/photoaccueil5.webp');
+  background-image: url("/assets/img/photoaccueil5.webp");
 }
 
+.card-film {
+  background-color: rgba(8, 29, 75, 0.58);
+  border: none;
+  border-radius: 15px;
+  width: 390px;
+  height: 508px;
+  flex-shrink: 0;
+}
+.card-affiche {
+  width: 188.919px;
+  height: 246.19px;
+  flex-shrink: 0;
+  
+}
+.card-film p {
+  color: #000;
+  font-family: Arial;
+  font-size: 17.851px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.594px;
+  padding-top: 20px;
+}
+.card-film h3 {
+  color: #000;
+  font-family: Arial;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+}

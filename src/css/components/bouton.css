@@ -1,34 +1,36 @@
 .btn {
-    background-color: #a62a2a;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: normal;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
+  display: inline-block;
+  
+  background-color: #a62a2a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 }
-.btn-fin{
-        background-color: #081D4B;
-        color: #fff;
-        font-family: Arial, sans-serif;
-        font-size: 1rem;
-        font-weight: normal;
-        text-align: center;
-        text-decoration: none;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        transition: background-color 0.3s, transform 0.2s;
+.btn-fin {
+  background-color: #081d4b;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 }
 button a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .button-submit {
   margin-top: 20px;
@@ -40,4 +42,3 @@ button a {
   border-radius: 20px;
   cursor: pointer;
 }
-
