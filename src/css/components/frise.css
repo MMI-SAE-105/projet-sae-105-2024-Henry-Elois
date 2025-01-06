@@ -21,12 +21,18 @@
     display: inline-block;
 }
 
-
 .chronology-line{
     width: 51.01px;
     height: 0px;
-    border: 0.2px solid #000;
+    border: 0.2px solid #1D305B;
 }
+
 .chronology-line-title {
-    width: 50%;
+    width: 75px;
+    border: 0.2px solid #1D305B;
+}
+.chronology-title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
 }

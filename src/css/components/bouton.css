@@ -30,4 +30,14 @@ button a {
     color: #fff;
     text-decoration: none;
 }
+.button-submit {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0a163c;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
 
