@@ -16,34 +16,25 @@ document.querySelector(".menu-back").addEventListener("click", function () {
   document.getElementById("mainNav").setAttribute("aria-hidden", "true");
 });
 
-// Script pour le carrousel
 const carousel = document.querySelector(".carousel");
-const items = document.querySelectorAll(".carousel-item");
-const prevButton = document.querySelector(".carousel-button.prev");
-const nextButton = document.querySelector(".carousel-button.next");
+const prevButton = document.querySelector(".prev");
+const nextButton = document.querySelector(".next");
 
-let currentIndex = 1;
+let scrollAmount = 0;
 
-function updateCarousel() {
-  items.forEach((item, index) => {
-    item.classList.remove("active");
-    if (index === currentIndex) {
-      item.classList.add("active");
-    }
-  });
-}
+prevButton.addEventListener("click", () => {
+  scrollAmount -= 300; 
+  if (scrollAmount < 0) {
+    scrollAmount = 0; 
+  }
+  carousel.style.transform = `translateX(-${scrollAmount}px)`;
+});
 
-function showNextItem() {
-  currentIndex = (currentIndex + 1) % items.length;
-  updateCarousel();
-}
-
-function showPrevItem() {
-  currentIndex = (currentIndex - 1 + items.length) % items.length;
-  updateCarousel();
-}
-
-nextButton.addEventListener("click", showNextItem);
-prevButton.addEventListener("click", showPrevItem);
-
-setInterval(showNextItem, 5000);
+nextButton.addEventListener("click", () => {
+  scrollAmount += 300; 
+  const maxScroll = carousel.scrollWidth - carousel.clientWidth;
+  if (scrollAmount > maxScroll) {
+    scrollAmount = maxScroll; 
+  }
+  carousel.style.transform = `translateX(-${scrollAmount}px)`;
+});
