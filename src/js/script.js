@@ -16,26 +16,18 @@ document.querySelector(".menu-back").addEventListener("click", function () {
   document.getElementById("mainNav").setAttribute("aria-hidden", "true");
 });
 
-const carousel = document.querySelector(".carousel");
-const prevButton = document.querySelector(".prev");
 const nextButton = document.querySelector(".next");
+const prevButton = document.querySelector(".prev");
+const carouselContainer = document.querySelector(".carousel-container");
 
-let scrollAmount = 0;
-
-prevButton.addEventListener("click", () => {
-  scrollAmount -= 300; 
-  if (scrollAmount < 0) {
-    scrollAmount = 0; 
-  }
-  carousel.style.transform = `translateX(-${scrollAmount}px)`;
-});
-
-nextButton.addEventListener("click", () => {
-  scrollAmount += 300; 
-  const maxScroll = carousel.scrollWidth - carousel.clientWidth;
-  if (scrollAmount > maxScroll) {
-    scrollAmount = maxScroll; 
-  }
-  carousel.style.transform = `translateX(-${scrollAmount}px)`;
-});
+if (nextButton) {
+  nextButton.addEventListener("click", () => {
+    carouselContainer.scrollBy({ left: 300, behavior: "smooth" });
+  });
+}
+if (prevButton) {
+  prevButton.addEventListener("click", () => {
+    carouselContainer.scrollBy({ left: -300, behavior: "smooth" });
+  });
+}
 

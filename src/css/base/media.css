@@ -5,7 +5,7 @@ img{
 .media-item{
     width: 89px;
 }
-.media-content{
+.media-content-musique{
     display: flex;
     gap: auto;
     justify-content: space-between;
@@ -19,3 +19,17 @@ img{
     margin: 30px 0; 
 }
 
+.media-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.media-content p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}

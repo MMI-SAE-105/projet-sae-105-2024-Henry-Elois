@@ -30,4 +30,15 @@ main h3 {
   font-weight: 900;
   line-height: normal;
 }
+.main-exergue{
+  color: var(--bleu-fonc, #1d305b);
+  text-align: center;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 10px;
+  border: 0.5px solid #1d305b;
+}
 
