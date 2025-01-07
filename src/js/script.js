@@ -38,3 +38,4 @@ nextButton.addEventListener("click", () => {
   }
   carousel.style.transform = `translateX(-${scrollAmount}px)`;
 });
+
