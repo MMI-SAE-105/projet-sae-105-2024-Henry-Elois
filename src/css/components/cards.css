@@ -63,4 +63,9 @@
 .card5 {
   background-image: url("/assets/img/photoaccueil5.webp");
 }
+.card-project{
+  display: flex;
+  margin: 20px;
+}
+
 

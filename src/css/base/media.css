@@ -1,22 +1,23 @@
-img, video{
-    width: 100%;
-    height: auto;
+img,
+video {
+  width: 100%;
+  height: auto;
 }
-.media-item{
-    width: 89px;
+.media-item {
+  width: 89px;
 }
-.media-content-musique{
-    display: flex;
-    gap: auto;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
+.media-content-musique {
+  display: flex;
+  gap: auto;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .media-line {
-    border: none; 
-    border-top: 3px dotted #000; 
-    width: 100%; 
-    margin: 30px 0; 
+  border: none;
+  border-top: 3px dotted #000;
+  width: 100%;
+  margin: 30px 0;
 }
 
 .media-content {
@@ -33,3 +34,8 @@ img, video{
   font-size: 14px;
   font-style: italic;
 }
+.media-othersprojects {
+  width: 151.743px;
+  height: 121px;
+}
+
