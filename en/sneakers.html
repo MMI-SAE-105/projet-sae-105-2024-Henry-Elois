@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html"
+          ><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"
+        /></a>
+        <div class="header__right">
+          <a href="/fr"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 512 512"
+            >
+              <mask id="circleFlagsFr0">
+                <circle cx="256" cy="256" r="256" fill="#fff" />
+              </mask>
+              <g mask="url(#circleFlagsFr0)">
+                <path
+                  fill="#eee"
+                  d="M167 0h178l25.9 252.3L345 512H167l-29.8-253.4z"
+                />
+                <path fill="#0052b4" d="M0 0h167v512H0z" />
+                <path fill="#d80027" d="M345 0h167v512H345z" />
+              </g>
+            </svg>
+          </a>
+          <button
+            class="menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <img
+              class="menu-btn__img"
+              src="/assets/icones/iconemenu.svg"
+              alt="menu icon"
+            />
+          </button>
+        </div>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+          <div class="menu_top">
+            <a class="menu-logo" href="index.html"
+              ><img
+                src="/assets/icones/logo.svg"
+                alt="logo"
+                class="header-logo"
+            /></a>
+            <button class="menu-back" aria-label="fermer le menu">
+              <img src="/assets/icones/cross2.svg" alt="cross" />
+            </button>
+          </div>
+          <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+              <a class="menu__link" href="/en/sneakers.html">The Sneakers</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/movie.html">Back to the Future</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/RobertZemeckis.html"
+                >Robert Zemeckis</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/music.html">Sicko Mode</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/book.html">Shoe Dog</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/moreinformation.html"
+                >More informations</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="hero-accueil">
+        <img src="/assets/img/pagesneakers/imagehero.webp" alt="Sneakers" />
+        <div class="hero-overlay">
+          <h1>Sneakers</h1>
+        </div>
+      </div>
+      <h3 class="hero_texte">
+        <em>
+          Sneakers. From origins to futuristic models, sneakers tell the story
+          of a constant evolution between past and future.
+        </em>
+      </h3>
+      <p class="intro-lien">
+        by <a href="apropos.html">Eloïs Henry</a><br />published on October 23,
+        2024
+      </p>
+      <figure>
+        <img
+          class="media-sneakers"
+          src="/assets/img/pagesneakers/photo1.webp"
+          alt="sneakers"
+        />
+        <figcaption>Sneakers exhibition in Clermont-Ferrand</figcaption>
+      </figure>
+      <h3>The Past: From Function to Fashion</h3>
+      <p class="main-texte">
+        But when was the first pair of sneakers created? Let’s go back in time…
+        Originally, they were just simple practical accessories. The first
+        Converse All-Stars, designed in <strong>1917</strong>, were dedicated to
+        athletes like runners and basketball players thanks to their rubber
+        soles, providing lightness, comfort, and flexibility.<br /><br />
+        Gradually, sneakers became symbols of urban culture.
+        <strong>1980s</strong>: This was the turning point in the world of
+        sneakers. The collaboration between Michael Jordan and Nike, launching
+        the Air Jordans, marked a milestone, influencing music, fashion, and
+        even politics. These functional items quickly became objects of desire,
+        collectible pieces, and even status symbols.
+      </p>
+      <div class="media-content">
+        <figure>
+          <img src="/assets/img/pagesneakers/photo2.webp" alt="sneakers" />
+          <figcaption>Michael Jordan playing in Jordans</figcaption>
+        </figure>
+      </div>
+
+      <h3 class="main-titre">The Present</h3>
+      <p class="main-texte">
+        Today, every pair of sneakers is meticulously designed. They reflect
+        trends, technological advancements, and environmental concerns. Brands
+        are constantly innovating by incorporating
+        <strong>recycled materials</strong> into their models, like the
+        Primegreen or Nike Space Hippie, which use recovered plastic waste.<br />
+        Technology is a key point in the development of modern sneakers. The
+        Nike Mag features automatic lacing or connection to mobile apps. No
+        longer just consumer products, sneakers are now innovative connected
+        devices.
+      </p>
+      <div class="media-content">
+        <figure>
+          <img
+            class="media"
+            src="/assets/img/pagesneakers/photo3.webp"
+            alt="sneakers"
+          />
+        </figure>
+      </div>
+      <h3 class="main-titre">
+        The Future: Sneakers, Museum Pieces or Everyday Objects?
+      </h3>
+      <p class="main-texte">
+        One might wonder, "What will sneakers become in the future?" Simpler
+        designs? Technological advancements? Ethical fashion objects where
+        durability is key? Mushrooms, vegan leather, 3D printing – diverse
+        productions, but they do not bring real change to consumers. A few years
+        ago, filmmakers and designers also pondered this question and arrived at
+        the Nike Mag, featured in the film
+        <a href="film.html">Back to the Future.</a>
+      </p>
+      <div class="btn">
+        <a href="/en/film.html">Back to the Future</a>
+      </div>
+
+      <p class="main-texte">
+        Are you wondering what sneakers will become? We have the answer.
+        Innovative technologies, eco-friendly materials, brand-new features –
+        yes, it’s the sneaker of the future. Automatic lacing, size-adjusting
+        shoes, integrated step counters, a heating system for winter and cooling
+        for summer, self-repairing technology, and even GPS integration with
+        anti-fall positioning technology.
+      </p>
+      <div class="media-content">
+        <figure>
+          <img
+            class="media"
+            src="/assets/img/pagesneakers/photo4.webp"
+            alt="sneakers"
+          />
+          <figcaption>Image generated by artificial intelligence</figcaption>
+        </figure>
+      </div>
+      <p class="main-texte">
+        This pair of sneakers would be much more than a fashion or utility
+        accessory – it would be a lifetime investment. In fact, the shoe, with
+        its self-repairing technology, would eliminate the need to spend on
+        shoes that wear out quickly. This pair of sneakers, initially in limited
+        stock, could quickly gain value and become a collectible item.<br /><br />
+        In a distant future, current sneakers might well be seen as prehistoric
+        objects. They will symbolize the era when humans began merging fashion,
+        technology, and ecology.
+      </p>
+      <div class="btn">
+        <a href="/en/book.html">See "The Art of Victory"</a>
+      </div>
+      <p class="main-texte">
+        The world of sneakers is constantly evolving, reinventing itself on
+        every occasion and striving to always meet demand. Gradually, sneakers
+        have become part of our daily lives and are now everyday items that most
+        people own.<br />
+        We can thus trace a certain evolution of sneakers leading to this:
+      </p>
+      <div class="chronology-title">
+        <hr class="chronology-line-title" />
+        <h3>Timeline</h3>
+        <hr class="chronology-line-title" />
+      </div>
+
+      <div class="chronology">
+        <div class="chronology-item--left">
+          <img
+            src="/assets/img/pagesneakers/frise1.webp"
+            alt="converse"
+            class="chronology-img"
+          />
+        </div>
+        <div class="chronology-item--right">
+          <img
+            src="/assets/img/pagesneakers/frise2.webp"
+            alt="air jordan"
+            class="chronology-img"
+          />
+        </div>
+        <div class="chronology-item--left">
+          <img
+            src="/assets/img/pagesneakers/frise3.webp"
+            alt="Nike mag"
+            class="chronology-img"
+          />
+        </div>
+        <div class="chronology-item--right">
+          <img
+            src="/assets/img/pagesneakers/frise4.webp"
+            alt="Digit sole smartshoes"
+            class="chronology-img"
+          />
+        </div>
+        <div class="chronology-item--left">
+          <img
+            src="/assets/img/pagesneakers/frise5.webp"
+            alt="futurosneakers"
+            class="chronology-img"
+          />
+        </div>
+        <div class="chronology-arrow">
+          <img
+            src="/assets/img/arrow2.webp"
+            alt="futurosneakers"
+            class="chronology-img"
+          />
+        </div>
+      </div>
+      <div class="btn-fin">
+        <a href="/en/moreinfo.html">More info</a>
+      </div>
+    </main>
+     <footer>
+      <img src="/assets/icones/logo.svg" alt="logo" />
+      <nav>
+        <div class="footer-infos">
+          <div class="footer-menu">
+            <h3>Menu</h3>
+            <ul class="footer-menu">
+              <li><a href="/en/contact.html">Contact</a></li>
+              <li><a href="/en/moreinformation.html">More Info</a></li>
+              <li><a href="/en/about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-nouscontacter">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Henry Eloïs</li>
+              <li>03 81 99 47 34</li>
+              <li>
+                <a href="mailto:But-mmi-montbeliard@univ-fcomte.fr "
+                  >But-mmi-montbeliard@univ-fcomte.fr</a
+                >
+              </li>
+              <li>
+                <a href="mailto:elois.henry@edu.univ-fcomte.fr "
+                  >elois.henry@edu.univ-fcomte.fr</a
+                >
+              </li>
+              <li>4 Place Lucien Tharradin, 25200 Montbéliard</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-noussuivre">
+          <h3>Follow Us</h3>
+          <div class="footer-icones">
+            <a href=""
+              ><img src="/assets/icones/facebook.svg" alt="facebook"
+            /></a>
+            <a href=""
+              ><img src="/assets/icones/twitter.svg" alt="twitter"
+            /></a>
+            <a href=""
+              ><img src="/assets/icones/instagram.svg" alt="instagram"
+            /></a>
+            <a href=""><img src="/assets/icones/tiktok.svg" alt="tiktok" /></a>
+          </div>
+        </div>
+        <p>
+          Project completed as part of an educational exercise in the
+          <a
+            href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
+            >MMI department of Montbéliard</a
+          >
+        </p>
+      </nav>
+    </footer>
+  </body>
+</html>

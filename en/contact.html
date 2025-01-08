@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html"
+          ><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"
+        /></a>
+        <div class="header__right">
+          <a href="/fr"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 512 512"
+            >
+              <mask id="circleFlagsFr0">
+                <circle cx="256" cy="256" r="256" fill="#fff" />
+              </mask>
+              <g mask="url(#circleFlagsFr0)">
+                <path
+                  fill="#eee"
+                  d="M167 0h178l25.9 252.3L345 512H167l-29.8-253.4z"
+                />
+                <path fill="#0052b4" d="M0 0h167v512H0z" />
+                <path fill="#d80027" d="M345 0h167v512H345z" />
+              </g>
+            </svg>
+          </a>
+          <button
+            class="menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <img
+              class="menu-btn__img"
+              src="/assets/icones/iconemenu.svg"
+              alt="menu icon"
+            />
+          </button>
+        </div>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+          <div class="menu_top">
+            <a class="menu-logo" href="index.html"
+              ><img
+                src="/assets/icones/logo.svg"
+                alt="logo"
+                class="header-logo"
+            /></a>
+            <button class="menu-back" aria-label="fermer le menu">
+              <img src="/assets/icones/cross2.svg" alt="cross" />
+            </button>
+          </div>
+          <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+              <a class="menu__link" href="/en/sneakers.html">The Sneakers</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/movie.html">Back to the Future</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/RobertZemeckis.html"
+                >Robert Zemeckis</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/music.html">Sicko Mode</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/book.html">Shoe Dog</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/moreinformation.html"
+                >More informations</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="contact-section">
+        <div class="contact-header">
+          <h1>Contact</h1>
+          <hr class="contact-bande" />
+          <p>
+            If you have any problems or questions, don't hesitate to contact us.
+          </p>
+        </div>
+        <form action="#" method="post" class="contact-form">
+          <div class="form-group">
+            <label for="name">Last Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Leave a message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn-fin">Send</button>
+          </div>
+        </form>
+        <div class="back-link-container">
+          <a href="index.html" class="back-link">Return to homepage</a>
+        </div>
+      </section>
+    </main>
+     <footer>
+      <img src="/assets/icones/logo.svg" alt="logo" />
+      <nav>
+        <div class="footer-infos">
+          <div class="footer-menu">
+            <h3>Menu</h3>
+            <ul class="footer-menu">
+              <li><a href="/en/contact.html">Contact</a></li>
+              <li><a href="/en/moreinformation.html">More Info</a></li>
+              <li><a href="/en/about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-nouscontacter">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Henry Eloïs</li>
+              <li>03 81 99 47 34</li>
+              <li>
+                <a href="mailto:But-mmi-montbeliard@univ-fcomte.fr "
+                  >But-mmi-montbeliard@univ-fcomte.fr</a
+                >
+              </li>
+              <li>
+                <a href="mailto:elois.henry@edu.univ-fcomte.fr "
+                  >elois.henry@edu.univ-fcomte.fr</a
+                >
+              </li>
+              <li>4 Place Lucien Tharradin, 25200 Montbéliard</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-noussuivre">
+          <h3>Follow Us</h3>
+          <div class="footer-icones">
+            <a href=""
+              ><img src="/assets/icones/facebook.svg" alt="facebook"
+            /></a>
+            <a href=""
+              ><img src="/assets/icones/twitter.svg" alt="twitter"
+            /></a>
+            <a href=""
+              ><img src="/assets/icones/instagram.svg" alt="instagram"
+            /></a>
+            <a href=""><img src="/assets/icones/tiktok.svg" alt="tiktok" /></a>
+          </div>
+        </div>
+        <p>
+          Project completed as part of an educational exercise in the
+          <a
+            href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
+            >MMI department of Montbéliard</a
+          >
+        </p>
+      </nav>
+    </footer>
+  </body>
+</html>

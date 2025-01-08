@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html"
+          ><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"
+        /></a>
+        <div class="header__right">
+          <a href="/fr"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 512 512"
+            >
+              <mask id="circleFlagsFr0">
+                <circle cx="256" cy="256" r="256" fill="#fff" />
+              </mask>
+              <g mask="url(#circleFlagsFr0)">
+                <path
+                  fill="#eee"
+                  d="M167 0h178l25.9 252.3L345 512H167l-29.8-253.4z"
+                />
+                <path fill="#0052b4" d="M0 0h167v512H0z" />
+                <path fill="#d80027" d="M345 0h167v512H345z" />
+              </g>
+            </svg>
+          </a>
+          <button
+            class="menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <img
+              class="menu-btn__img"
+              src="/assets/icones/iconemenu.svg"
+              alt="menu icon"
+            />
+          </button>
+        </div>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+          <div class="menu_top">
+            <a class="menu-logo" href="index.html"
+              ><img
+                src="/assets/icones/logo.svg"
+                alt="logo"
+                class="header-logo"
+            /></a>
+            <button class="menu-back" aria-label="fermer le menu">
+              <img src="/assets/icones/cross2.svg" alt="cross" />
+            </button>
+          </div>
+          <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+              <a class="menu__link" href="/en/sneakers.html">The Sneakers</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/movie.html">Back to the Future</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/RobertZemeckis.html"
+                >Robert Zemeckis</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/music.html">Sicko Mode</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/book.html">Shoe Dog</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/moreinformation.html"
+                >More informations</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="hero-accueil">
+        <img src="/assets/img/pagefilm/photohero.webp" alt="Sneakers" />
+        <div class="hero-overlay">
+          <h1>Back to the Future</h1>
+        </div>
+      </div>
+      <div class="hero-texte">
+        <h3>
+          More than just a science fiction film, Back to the Future has left its
+          mark on sneaker culture thanks to its futuristic designs.
+        </h3>
+      </div>
+      <p class="intro-lien">
+        by <a href="apropos.html">Eloïs Henry</a><br />published on October 23,
+        2024
+      </p>
+      <div class="media-content">
+        <figure>
+          <img src="/assets/img/pagefilm/photo1.webp" alt="sneakers" />
+          <figcaption>Trilogy poster</figcaption>
+        </figure>
+      </div>
+
+      <h3 class="titre">Synopsis</h3>
+      <p class="main-texte">
+        Back to the Future follows the story of Marty McFly, a teenager who
+        accidentally travels to the past in a DeLorean modified into a time
+        machine by the eccentric scientist Doc Brown. Stuck in 1955, Marty must
+        ensure his parents fall in love to preserve his existence, while finding
+        a way to return to his own time. In the sequels, Marty also travels to
+        the future to solve family problems, discovering visionary technologies
+        like the Nike Air Mag, and must repair the consequences of his time
+        travels across different eras.
+      </p>
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-item active">
+            <img src="/assets/img/pagefilm/photocarrousel.webp" alt="Image 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/pagefilm/carrousel2.webp" alt="Image 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/pagefilm/carrousel3.webp" alt="Image 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/pagefilm/carrousel4.webp" alt="Image 4" />
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/pagefilm/carrousel5.webp" alt="Image 4" />
+          </div>
+        </div>
+      </div>
+      <div class="carousel-buttons">
+        <button class="carousel-button prev" aria-label="Scroll left">←</button>
+        <button class="carousel-button next" aria-label="Scroll right">
+          →
+        </button>
+      </div>
+      <h3 class="titre">The fusion of pop culture and sneakers</h3>
+      <p class="main-texte">
+        Released in 1985, Back to the Future, directed by Robert Zemeckis, is
+        one of the most iconic films in pop culture. It tells the story of Marty
+        McFly (played by Michael J. Fox), a teenager who accidentally travels to
+        the past and future in a modified DeLorean. This time travel has become
+        a major cultural reference, but what many didn't anticipate was its
+        impact on the sneaker industry.
+      </p>
+      <div class="media-content">
+        <figure>
+          <img src="/assets/img/pagefilm/image2.webp" alt="sneakers" />
+          <figcaption>DeLorean time traveling in Back to the Future</figcaption>
+        </figure>
+      </div>
+
+      <p class="main-texte">
+        The Back to the Future saga not only captured the attention of science
+        fiction fans, but it also influenced the fashion industry, particularly
+        that of sneakers. In the second film of the trilogy, Marty finds himself
+        projected into 2015, a futuristic era where Nike Air Mags are presented
+        on screen for the first time. These self-lacing sneakers, with an
+        avant-garde design, immediately captured the public's imagination. They
+        became the embodiment of what sneakers of the future could look like.
+      </p>
+      <div class="btn">
+        <a href="https://www.youtube.com/watch?v=2LnK8j6Uo1U"
+          >Watch the movie clip</a
+        >
+      </div>
+
+      <h3 class="titre">Nike Air Mag: From fiction to reality</h3>
+
+      <p class="main-texte">
+        These fictional sneakers, designed for the film, quickly became objects
+        of desire, and their popularity continued to grow after the film's
+        release. For a long time, fans hoped to see these iconic sneakers
+        materialize in reality. Nike fulfilled this wish in 2011, by launching a
+        limited edition of the Nike Air Mag. Although they were not equipped
+        with the automatic lacing system seen in the film, their design faithful
+        to the original made them highly sought-after collector's items.
+      </p>
+      <div class="media-content">
+        <figure>
+          <img src="/assets/img/pagefilm/image3.webp" alt="sneakers" />
+          <figcaption>Nike Air Mag</figcaption>
+        </figure>
+      </div>
+
+      <p class="main-texte">
+        In 2016, Nike took another step by unveiling a new version of the Air
+        Mag, this time with the famous automatic lacing system, thus paying
+        homage to the film. This technological innovation, which was thought to
+        be reserved for science fiction, showed how much Back to the Future had
+        marked the collective imagination and paved the way for reflection on
+        the future of sneakers.
+      </p>
+
+      <blockquote class="main-exergue">
+        "The Nike Air Mags are not just shoes, they are the symbol of a future
+        imagined by pop culture."
+      </blockquote>
+      <p class="texte">
+        Today, the impact of Back to the Future is still felt in sneaker
+        culture. Brands continue to innovate by drawing inspiration from this
+        futuristic vision. Many collaborations between the world of cinema and
+        that of sneakers have emerged, with models inspired by cult films. But
+        the Nike Air Mags undoubtedly remain the most iconic model, a pair that
+        has managed to transcend the screen to become a timeless symbol of
+        innovation.
+      </p>
+
+      <h3>The impact of Back to the Future on the world</h3>
+
+      <p class="texte">
+        Back to the Future has had a major impact on popular culture and beyond.
+        The film not only captivated viewers with its time travel plot, but it
+        also inspired many fields such as fashion, technology, and design.
+      </p>
+      <div class="media-content">
+        <figure>
+          <img
+            src="/assets/img/pagefilm/image4.webp"
+            alt="sneakers"
+            class="affiche"
+          />
+          <figcaption class="legendes">
+            <em>Back to the Future 1 poster</em>
+          </figcaption>
+        </figure>
+      </div>
+
+      <p class="texte">
+        Innovations seen in the film, such as the self-lacing Nike Air Mag or
+        the hoverboard, have become symbols of the collective imagination,
+        influencing brands and creators to reinvent the future. Even decades
+        after its release, Back to the Future continues to mark minds and
+        inspire cultural and technological collaborations.
+      </p>
+      <div class="btn-fin">
+        <a href="realisateur.html">Read the article "Robert Zemeckis"</a>
+      </div>
+    </main>
+     <footer>
+      <img src="/assets/icones/logo.svg" alt="logo" />
+      <nav>
+        <div class="footer-infos">
+          <div class="footer-menu">
+            <h3>Menu</h3>
+            <ul class="footer-menu">
+              <li><a href="/en/contact.html">Contact</a></li>
+              <li><a href="/en/moreinformation.html">More Info</a></li>
+              <li><a href="/en/about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-nouscontacter">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Henry Eloïs</li>
+              <li>03 81 99 47 34</li>
+              <li>
+                <a href="mailto:But-mmi-montbeliard@univ-fcomte.fr "
+                  >But-mmi-montbeliard@univ-fcomte.fr</a
+                >
+              </li>
+              <li>
+                <a href="mailto:elois.henry@edu.univ-fcomte.fr "
+                  >elois.henry@edu.univ-fcomte.fr</a
+                >
+              </li>
+              <li>4 Place Lucien Tharradin, 25200 Montbéliard</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-noussuivre">
+          <h3>Follow Us</h3>
+          <div class="footer-icones">
+            <a href=""
+              ><img src="/assets/icones/facebook.svg" alt="facebook"
+            /></a>
+            <a href=""
+              ><img src="/assets/icones/twitter.svg" alt="twitter"
+            /></a>
+            <a href=""
+              ><img src="/assets/icones/instagram.svg" alt="instagram"
+            /></a>
+            <a href=""><img src="/assets/icones/tiktok.svg" alt="tiktok" /></a>
+          </div>
+        </div>
+        <p>
+          Project completed as part of an educational exercise in the
+          <a
+            href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
+            >MMI department of Montbéliard</a
+          >
+        </p>
+      </nav>
+    </footer>
+  </body>
+</html>

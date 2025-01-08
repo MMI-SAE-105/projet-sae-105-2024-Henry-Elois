@@ -38,4 +38,12 @@ video {
   width: 151.743px;
   height: 121px;
 }
+.media-apropos {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 

@@ -1,138 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header">
-            <a href="index.html"><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"></a>
-            <div class="header__right">
-                <a href="/fr"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
-                    <mask id="circleFlagsFr0">
-                        <circle cx="256" cy="256" r="256" fill="#fff" />
-                    </mask>
-                    <g mask="url(#circleFlagsFr0)">
-                        <path fill="#eee" d="M167 0h178l25.9 252.3L345 512H167l-29.8-253.4z" />
-                        <path fill="#0052b4" d="M0 0h167v512H0z" />
-                        <path fill="#d80027" d="M345 0h167v512H345z" />
-                    </g>
-                    </svg>
-                </a>
-                <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-                    <img class="menu-btn__img" src="/assets/icones/iconemenu.svg" alt="menu icon">
-                </button>
-            </div>
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-            <div class="menu_top">
-            <a class="menu-logo" href="index.html"><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"></a>
-            <button class="menu-back" aria-label="fermer le menu"><img src="/assets/icones/cross 2.svg" alt="cross"></button>
+      <div class="header">
+        <a href="index.html"
+          ><img src="/assets/icones/logo.svg" alt="logo" class="header-logo"
+        /></a>
+        <div class="header__right">
+          <a href="/fr"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 512 512"
+            >
+              <mask id="circleFlagsFr0">
+                <circle cx="256" cy="256" r="256" fill="#fff" />
+              </mask>
+              <g mask="url(#circleFlagsFr0)">
+                <path
+                  fill="#eee"
+                  d="M167 0h178l25.9 252.3L345 512H167l-29.8-253.4z"
+                />
+                <path fill="#0052b4" d="M0 0h167v512H0z" />
+                <path fill="#d80027" d="M345 0h167v512H345z" />
+              </g>
+            </svg>
+          </a>
+          <button
+            class="menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <img
+              class="menu-btn__img"
+              src="/assets/icones/iconemenu.svg"
+              alt="menu icon"
+            />
+          </button>
         </div>
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item">
-                    <a class="menu__link" href="lessneakers.html">The Sneakers</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="film.html">Back to the Future</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="realisateur.html">Robert Zemeckis</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="musique.html">Sicko Mode</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="livre.html">Shoe Dog</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="apropos.html">About</a>
-                </li>
-            </ul>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+          <div class="menu_top">
+            <a class="menu-logo" href="index.html"
+              ><img
+                src="/assets/icones/logo.svg"
+                alt="logo"
+                class="header-logo"
+            /></a>
+            <button class="menu-back" aria-label="fermer le menu">
+              <img src="/assets/icones/cross2.svg" alt="cross" />
+            </button>
+          </div>
+          <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+              <a class="menu__link" href="/en/sneakers.html">The Sneakers</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/movie.html">Back to the Future</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/RobertZemeckis.html"
+                >Robert Zemeckis</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/music.html">Sicko Mode</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/book.html">Shoe Dog</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/moreinformation.html"
+                >More informations</a
+              >
+            </li>
+          </ul>
         </nav>
-    </div>
+      </div>
     </header>
     <main>
-        <div class="hero-accueil">
-            <img src="/assets/img/imagehero.webp" alt="Sneakers">
-            <div class="hero-overlay">
-                <h1>FuturoSneakers</h1>
-            </div>
+      <div class="hero-accueil">
+        <img src="/assets/img/imagehero.webp" alt="Sneakers" />
+        <div class="hero-overlay">
+          <h1>FuturoSneakers</h1>
         </div>
-        <section class="intro">
-            <p><em>Welcome to the prehistory of the future, where sneakers, symbols of style and innovation, take you through time. Explore their evolution and role in the future of fashion, and discover the upcoming model, FuturoSneakers.</em></p>
-        </section>
-        <section class="card-section">
-            <h1>The Sneakers</h1>
-            <div class="card">
-                <img class="backgroungcard" src="/assets/img/photoaccueil1.webp" alt="sneakers">
-                <p>Sneakers, from simple sports shoes to fashion icons, reflect the evolution of trends and the innovation between style and technology.</p>
-                <button class="btn">Learn more &rarr;</button>
-            </div>
-            <div class="card">
-                <h2>Back to the Future</h2>
-                <img class="backgroungcard" src="/assets/img/photoaccueil2.webp" alt="sneakers">
-                <p>Dive into the cult universe of Back to the Future, a film that not only made history in cinema but also influenced the fashion and culture of sneakers.</p>
-                <button class="btn">Learn more &rarr;</button>
-            </div>
-            <div class="card">
-                <h2>Robert Zemeckis</h2>
-                <img class="backgroungcard" src="/assets/img/photoaccueil3.webp" alt="sneakers">
-                <p>Robert Zemeckis, a visionary director, left a mark on cinema with films like Back to the Future, blending technological innovation and timeless storytelling.</p>
-                <button class="btn">Learn more &rarr;</button>
-            </div>
-            <div class="card">
-                <h2>Sicko Mode</h2>
-                <img class="backgroungcard" src="/assets/img/photoaccueil4.webp" alt="sneakers">
-                <p>Discover the impact of Travis Scott's Sicko Mode, a track that fuses music, culture, and sneakers.</p>
-                <button class="btn">Learn more &rarr;</button>
-            </div>
-            <div class="card">
-                <h2>Shoe Dog</h2>
-                <img class="backgroungcard" src="/assets/img/photoaccueil5.webp" alt="sneakers">
-                <p>Explore Shoe Dog, where Phil Knight shares the story of the creation of Nike and its role in transforming sneakers into cultural icons.</p>
-                <button class="btn">Learn more &rarr;</button>
-            </div>
-        </section>
+      </div>
+      <section class="intro">
+        <p>
+          <em>
+            Welcome to the prehistory of the future, where sneakers, symbols of
+            style and innovation, take you through time. Explore their evolution
+            and role in the future of fashion, and discover the upcoming model,
+            FuturoSneakers.
+          </em>
+        </p>
+      </section>
+      <section class="card-section">
+        <div class="card card1">
+          <h2>Sneakers</h2>
+          <p>
+            From simple sports shoes to fashion icons, sneakers reflect the
+            evolution of trends and innovation blending style and technology.
+          </p>
+          <a href="/en/sneakers.html" class="btn-card">Learn more &rarr;</a>
+        </div>
+        <div class="card card2">
+          <h2>Back to the Future</h2>
+          <p>
+            Dive into the cult universe of Back to the Future, a movie that not
+            only made history in cinema but also influenced fashion and sneaker
+            culture.
+          </p>
+          <a href="/en/film.html" class="btn-card">Learn more &rarr;</a>
+        </div>
+        <div class="card card3">
+          <h2>Robert Zemeckis</h2>
+          <p>
+            Robert Zemeckis, a visionary filmmaker, left his mark on cinema with
+            films like Back to the Future, blending technological innovation
+            with timeless storytelling.
+          </p>
+          <a href="/en/director.html" class="btn-card">Learn more &rarr;</a>
+        </div>
+        <div class="card card4">
+          <h2>Sicko Mode</h2>
+          <p>
+            Discover the impact of Travis Scott's Sicko Mode, a track that
+            merges music, culture, and sneakers.
+          </p>
+          <a href="/en/music.html" class="btn-card">Learn more &rarr;</a>
+        </div>
+        <div class="card card5">
+          <h2>Shoe Dog</h2>
+          <p>
+            Explore *Shoe Dog*, where Phil Knight shares the story of Nike's
+            creation and its role in transforming sneakers into cultural icons.
+          </p>
+          <a href="/en/book.html" class="btn-card">Learn more &rarr;</a>
+        </div>
+      </section>
     </main>
-    <footer>
-        <img src="/assets/icones/logo.svg" alt="logo">
-        <nav>
-            <div class="footer-infos">
-                <div class="footer-menu">
-                    <h3>Menu</h3>
-                    <ul class="footer-menu">
-                        <li><a href="/fr/contact.html">Contact</a></li>
-                        <li><a href="/fr/plusdinfo.html">More Info</a></li>
-                        <li><a href="/fr/apropos.html">About</a></li>
-                    </ul>
-                </div>
-                <div class="footer-nouscontacter">
-                    <h3>Contact Us</h3>
-                    <ul>
-                        <li>Henry Eloïs</li>
-                        <li>03 81 99 47 34</li>
-                        <li><a href="mailto:But-mmi-montbeliard@univ-fcomte.fr ">But-mmi-montbeliard@univ-fcomte.fr</a></li>
-                        <li><a href="mailto:elois.henry@edu.univ-fcomte.fr ">elois.henry@edu.univ-fcomte.fr</a></li>
-                        <li>4 Place Lucien Tharradin, 25200 Montbéliard</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-noussuivre">
-                <h3>Follow Us</h3>
-                <div class="footer-icones">
-                    <a href=""><img src="/assets/icones/facebook.svg" alt="facebook"></a>
-                    <a href=""><img src="/assets/icones/twitter.svg" alt="twitter"></a>
-                    <a href=""><img src="/assets/icones/instagram.svg" alt="instagram"></a>
-                    <a href=""><img src="/assets/icones/tiktok.svg" alt="tiktok"></a>
-                </div>
-            </div>
-            <p>Project completed as part of an educational exercise in the <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMI department of Montbéliard</a></p>
-        </nav>
+     <footer>
+      <img src="/assets/icones/logo.svg" alt="logo" />
+      <nav>
+        <div class="footer-infos">
+          <div class="footer-menu">
+            <h3>Menu</h3>
+            <ul class="footer-menu">
+              <li><a href="/en/contact.html">Contact</a></li>
+              <li><a href="/en/moreinformation.html">More Info</a></li>
+              <li><a href="/en/about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-nouscontacter">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Henry Eloïs</li>
+              <li>03 81 99 47 34</li>
+              <li>
+                <a href="mailto:But-mmi-montbeliard@univ-fcomte.fr "
+                  >But-mmi-montbeliard@univ-fcomte.fr</a
+                >
+              </li>
+              <li>
+                <a href="mailto:elois.henry@edu.univ-fcomte.fr "
+                  >elois.henry@edu.univ-fcomte.fr</a
+                >
+              </li>
+              <li>4 Place Lucien Tharradin, 25200 Montbéliard</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-noussuivre">
+          <h3>Follow Us</h3>
+          <div class="footer-icones">
+            <a href=""
+              ><img src="/assets/icones/facebook.svg" alt="facebook"
+            /></a>
+            <a href=""
+              ><img src="/assets/icones/twitter.svg" alt="twitter"
+            /></a>
+            <a href=""
+              ><img src="/assets/icones/instagram.svg" alt="instagram"
+            /></a>
+            <a href=""><img src="/assets/icones/tiktok.svg" alt="tiktok" /></a>
+          </div>
+        </div>
+        <p>
+          Project completed as part of an educational exercise in the
+          <a
+            href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
+            >MMI department of Montbéliard</a
+          >
+        </p>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
-
