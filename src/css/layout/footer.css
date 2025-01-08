@@ -43,6 +43,7 @@ footer ul {
     gap: 19px;
     margin-top: 20px;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 footer p {
