@@ -18,18 +18,23 @@ document.querySelector(".menu-back").addEventListener("click", function () {
 
 const nextButton = document.querySelector(".next");
 const prevButton = document.querySelector(".prev");
-const carouselContainer = document.querySelector(".carousel-container");
+const carouselContainer = document.querySelector(".carousel");
+const carouselItems = document.querySelectorAll(".carousel-item");
+
+const itemWidth = carouselItems[0].offsetWidth + 20;
 
 if (nextButton) {
   nextButton.addEventListener("click", () => {
-    carouselContainer.scrollBy({ left: 300, behavior: "smooth" });
+    carouselContainer.scrollBy({ left: itemWidth, behavior: "smooth" });
   });
 }
+
 if (prevButton) {
   prevButton.addEventListener("click", () => {
-    carouselContainer.scrollBy({ left: -300, behavior: "smooth" });
+    carouselContainer.scrollBy({ left: -itemWidth, behavior: "smooth" });
   });
 }
+
 
 const lightBox = document.querySelector("#lightbox");
 const lightBoxImg = lightBox.querySelector("img");
