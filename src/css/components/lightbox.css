@@ -1,0 +1,54 @@
+dialog#Lightbox {
+    border-radius : 15px;
+    border-color: blue;
+    border-width: 10px;
+    background-color: #ccc;
+
+}
+
+dialog#lightbox[open] {
+    animation: entree 2s;
+}
+
+@keyframes entree {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    70% {
+    transform: scale(1);
+    }
+
+    100% {
+    transform: scale(1);
+    }
+}
+
+
+dialog#lightbox[open].sortie {
+    animation: sortie 1s;
+}
+
+@keyframes sortie {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#lightbox::backdrop {
+    content: 'X';
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    background-color: rgba(154, 124, 124, 0.8);
+    width: 100%;
+    height: 100%;
+}
